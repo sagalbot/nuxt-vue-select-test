@@ -2,15 +2,11 @@
   <div class="container">
     <div>
       <logo/>
-      <h1 class="title">
-        nuxt-vue-select
-      </h1>
       <h2 class="subtitle">
-        testing vue-select SSR
+        testing vue-select SSR with Nuxt
       </h2>
 
       <v-select :options="[1,2,3,4,5]"/>
-
     </div>
   </div>
 </template>
